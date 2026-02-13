@@ -1,6 +1,3 @@
-Readme · MD
-Copy
-
 # Blue Vending Machine
 
 A production-ready vending machine application built with **Next.js 14**, **TypeScript**, and **Ant Design**.
