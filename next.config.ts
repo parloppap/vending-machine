@@ -1,15 +1,13 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
+  output: 'standalone',
+
   reactStrictMode: true,
 
   images: {
     domains: [],
     unoptimized: false,
-  },
-
-  compiler: {
-    removeConsole: process.env.NODE_ENV === 'production',
   },
 };
 
