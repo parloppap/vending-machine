@@ -1,0 +1,38 @@
+export const INITIAL_PRODUCTS = [
+  {
+    id: 1,
+    name: 'Coca Cola',
+    price: 25,
+    stock: 10,
+    image: '🥤',
+    color: '#E31837',
+  },
+  { id: 2, name: 'Pepsi', price: 25, stock: 8, image: '🥤', color: '#004B93' },
+  { id: 3, name: 'Water', price: 15, stock: 15, image: '💧', color: '#00A3E0' },
+  {
+    id: 4,
+    name: 'Orange Juice',
+    price: 35,
+    stock: 6,
+    image: '🍊',
+    color: '#FF8C00',
+  },
+  {
+    id: 5,
+    name: 'Snickers',
+    price: 30,
+    stock: 12,
+    image: '🍫',
+    color: '#46210D',
+  },
+  {
+    id: 6,
+    name: 'Lays Chips',
+    price: 20,
+    stock: 9,
+    image: '🥔',
+    color: '#FFD700',
+  },
+  { id: 7, name: 'KitKat', price: 28, stock: 7, image: '🍫', color: '#D70026' },
+  { id: 8, name: 'M&Ms', price: 32, stock: 5, image: '🍬', color: '#FFE135' },
+];
